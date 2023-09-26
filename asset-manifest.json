@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fakeband%20%20/static/css/main.c3eada97.css",
-    "main.js": "/fakeband%20%20/static/js/main.cb6170f8.js",
+    "main.js": "/fakeband%20%20/static/js/main.bee8a2e9.js",
     "static/js/787.1d05cb81.chunk.js": "/fakeband%20%20/static/js/787.1d05cb81.chunk.js",
     "static/media/IMG_2477-min.png": "/fakeband%20%20/static/media/IMG_2477-min.3826768d53f3aa803802.png",
     "static/media/блюр-min.png": "/fakeband%20%20/static/media/блюр-min.2e3f9185c8b1503369e1.png",
@@ -14,11 +14,11 @@
     "static/media/vk-svgrepo-com.svg": "/fakeband%20%20/static/media/vk-svgrepo-com.50c14dc62d9f86c9d57ad21af03dd6e5.svg",
     "index.html": "/fakeband%20%20/index.html",
     "main.c3eada97.css.map": "/fakeband%20%20/static/css/main.c3eada97.css.map",
-    "main.cb6170f8.js.map": "/fakeband%20%20/static/js/main.cb6170f8.js.map",
+    "main.bee8a2e9.js.map": "/fakeband%20%20/static/js/main.bee8a2e9.js.map",
     "787.1d05cb81.chunk.js.map": "/fakeband%20%20/static/js/787.1d05cb81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3eada97.css",
-    "static/js/main.cb6170f8.js"
+    "static/js/main.bee8a2e9.js"
   ]
 }
