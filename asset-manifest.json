@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c85f52e.css",
-    "main.js": "/static/js/main.0215e0c1.js",
-    "static/js/787.1d05cb81.chunk.js": "/static/js/787.1d05cb81.chunk.js",
-    "static/media/IMG_2477-min.png": "/static/media/IMG_2477-min.3826768d53f3aa803802.png",
-    "static/media/блюр-min.png": "/static/media/блюр-min.2e3f9185c8b1503369e1.png",
-    "static/media/imgonline-com-ua-Blur-oA2GPjnu1b-min.jpg": "/static/media/imgonline-com-ua-Blur-oA2GPjnu1b-min.ed9bc0df36f69c290d2b.jpg",
-    "static/media/Body-Grotesque-Large-Bold-trial.ttf": "/static/media/Body-Grotesque-Large-Bold-trial.453e0d88a4a657604c29.ttf",
-    "static/media/Ekran-font.ttf": "/static/media/Ekran-font.85f9c187906c6bd4c0f6.ttf",
-    "static/media/DaMiOne-Regular.ttf": "/static/media/DaMiOne-Regular.3c6ccd5cf9e55bc29603.ttf",
-    "static/media/instagram-167-svgrepo-com.svg": "/static/media/instagram-167-svgrepo-com.eaa957f02fe3257f3533c2d96533dc6b.svg",
-    "static/media/youtube-168-svgrepo-com.svg": "/static/media/youtube-168-svgrepo-com.361fd800e39dcb080516df2e39c7a994.svg",
-    "static/media/vk-svgrepo-com.svg": "/static/media/vk-svgrepo-com.50c14dc62d9f86c9d57ad21af03dd6e5.svg",
-    "index.html": "/index.html",
-    "main.2c85f52e.css.map": "/static/css/main.2c85f52e.css.map",
-    "main.0215e0c1.js.map": "/static/js/main.0215e0c1.js.map",
-    "787.1d05cb81.chunk.js.map": "/static/js/787.1d05cb81.chunk.js.map"
+    "main.css": "./static/css/main.46ffe844.css",
+    "main.js": "./static/js/main.7e05616e.js",
+    "static/js/787.1d05cb81.chunk.js": "./static/js/787.1d05cb81.chunk.js",
+    "static/media/IMG_2477-min.png": "./static/media/IMG_2477-min.3826768d53f3aa803802.png",
+    "static/media/блюр-min.png": "./static/media/блюр-min.2e3f9185c8b1503369e1.png",
+    "static/media/imgonline-com-ua-Blur-oA2GPjnu1b-min.jpg": "./static/media/imgonline-com-ua-Blur-oA2GPjnu1b-min.ed9bc0df36f69c290d2b.jpg",
+    "static/media/Body-Grotesque-Large-Bold-trial.ttf": "./static/media/Body-Grotesque-Large-Bold-trial.453e0d88a4a657604c29.ttf",
+    "static/media/Ekran-font.ttf": "./static/media/Ekran-font.85f9c187906c6bd4c0f6.ttf",
+    "static/media/DaMiOne-Regular.ttf": "./static/media/DaMiOne-Regular.3c6ccd5cf9e55bc29603.ttf",
+    "static/media/instagram-167-svgrepo-com.svg": "./static/media/instagram-167-svgrepo-com.eaa957f02fe3257f3533c2d96533dc6b.svg",
+    "static/media/youtube-168-svgrepo-com.svg": "./static/media/youtube-168-svgrepo-com.361fd800e39dcb080516df2e39c7a994.svg",
+    "static/media/vk-svgrepo-com.svg": "./static/media/vk-svgrepo-com.50c14dc62d9f86c9d57ad21af03dd6e5.svg",
+    "index.html": "./index.html",
+    "main.46ffe844.css.map": "./static/css/main.46ffe844.css.map",
+    "main.7e05616e.js.map": "./static/js/main.7e05616e.js.map",
+    "787.1d05cb81.chunk.js.map": "./static/js/787.1d05cb81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c85f52e.css",
-    "static/js/main.0215e0c1.js"
+    "static/css/main.46ffe844.css",
+    "static/js/main.7e05616e.js"
   ]
 }
