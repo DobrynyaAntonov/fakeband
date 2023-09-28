@@ -38,7 +38,7 @@
         height: 850px;
     }
     .main__image2 {
-        height: 850px;
+        height: 700px;
     }
 
 }
@@ -55,7 +55,7 @@
 
 @media (max-width: 376px) {
     .main__image2 {
-        object-position: -69px;
+        object-position: -58px;
     }
 }
 
@@ -64,8 +64,15 @@
         height: 700px;
     }
     .main__image2 {
-        height: 700px;
-        object-position: -58px;
+        height: 590px;
+        object-position: -3px;
+    }
+}
+@media (max-width: 370px) {
+ 
+    .main__image2 {
+        height: 590px;
+        object-position: -24px;
     }
 }
 
@@ -76,5 +83,13 @@
     }
     .main__image2 {
         height: 590px;
+        object-position: -43px;
+    }
+}
+
+@media (max-width: 351px) {
+
+    .main__image2 {
+        object-position: -56px;
     }
 }

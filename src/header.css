@@ -60,12 +60,33 @@
     height: fit-content;
     color: whitesmoke;
     border-radius: 10px;
-    margin-top: 46px;
+
     font-size: 35px;
-    position: relative;
     overflow-x: hidden;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 900;
+}
+
+.header__connection {
+    position: relative;
+    height: fit-content;
+    margin-top: 46px;
+}
+
+.header__connection-icon {
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.header__connection-icon:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.header__connection-link:first-child {
+    margin-right: 80px;
 }
 
 .header__phone-text {
@@ -108,15 +129,66 @@
     cursor: pointer;
 }
 
+.header__contact-open {
+    width: 50px;
+    height: 50px;
+}
+
+.header__contact-close {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.what {
+    background-color: white;
+    border-radius: 50%;
+}
+
+@media (max-width: 965px) {
+    .header__connection {
+        margin-top: 25px;
+    }
+
+    .header__navtab {
+        margin-top: 25px;
+    }
+
+    .header__promo {
+        margin-top: 25px;
+    }
+}
+
 @media (max-width: 900px) {
     .header__icon {
         margin-right: 30px;
         width: 50px;
         height: 50px;
     }
+
+    .header__connection-icon {
+        width: 40px;
+        height: 40px;
+    }
 }
 
+
 @media (max-width: 768px) {
+
+    .header__open {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.6s ease-in-out; /* Плавная анимация изменения max-height */
+    }
+    
+    .header__open.visible {
+        max-height: 500px; /* Высота меню, когда оно видимо */
+        transition: max-height 0.6s ease-in-out; /* Плавное изменение max-height при открытии */
+    }
+
+    .header__contact-open{
+        margin-top: 20px;
+    }
     .header__promo {
         position: fixed;
         left: 30px;
@@ -124,11 +196,27 @@
         margin: 0;
     }
 
-    .header__phone {
+    .header__promo:hover {
+        opacity: 1;
+    }
+
+    .header__connection {
         position: fixed;
         right: 30px;
         bottom: 30px;
+        display: flex;
+        flex-direction: column;
     }
+
+    .header__connection-link:first-child {
+        margin-right: 0;
+    }
+
+    .header__socials {
+        display: flex;
+        flex-direction: column;
+    }
+
 
     .header__title {
         font-size: 50px;
@@ -140,6 +228,14 @@
         height: 50px;
     }
 
+    .header__icon:hover {
+        opacity: 1;
+    }
+
+    .header__connection-icon:hover {
+        opacity: 1;
+    }
+
     .header__container {
         height: 70px;
     }
@@ -148,6 +244,7 @@
         margin-top: 20px;
         margin-left: 0;
     }
+
 }
 
 @media (max-width: 580px) {
@@ -161,6 +258,7 @@
         font-size: 40px;
         margin-top: 10px;
         padding-bottom: 10px;
+        -webkit-text-stroke: 0px white;
     }
 
     .header__promo {
@@ -195,7 +293,8 @@
         width: 30px;
         height: 30px;
     }
-    .header__title{
+
+    .header__title {
         font-size: 30px;
     }
 }
