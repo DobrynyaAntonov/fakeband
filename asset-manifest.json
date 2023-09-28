@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.bffde56b.css",
-    "main.js": "./static/js/main.73f2a6f4.js",
+    "main.js": "./static/js/main.35025835.js",
     "static/js/787.1d05cb81.chunk.js": "./static/js/787.1d05cb81.chunk.js",
     "static/media/IMG_2477-min.png": "./static/media/IMG_2477-min.3826768d53f3aa803802.png",
     "static/media/блюр-min.png": "./static/media/блюр-min.2e3f9185c8b1503369e1.png",
     "static/media/imgonline-com-ua-Blur-oA2GPjnu1b-min.jpg": "./static/media/imgonline-com-ua-Blur-oA2GPjnu1b-min.ed9bc0df36f69c290d2b.jpg",
     "static/media/Body-Grotesque-Large-Bold-trial.ttf": "./static/media/Body-Grotesque-Large-Bold-trial.453e0d88a4a657604c29.ttf",
+    "static/media/3721672-instagram_108066.png": "./static/media/3721672-instagram_108066.f5ef3733532877aa232f.png",
     "static/media/Ekran-font.ttf": "./static/media/Ekran-font.85f9c187906c6bd4c0f6.ttf",
     "static/media/phone_14179.png": "./static/media/phone_14179.5a341aa7dfcb7c75e2e9.png",
     "static/media/whatsapp_logo_icon_186881.png": "./static/media/whatsapp_logo_icon_186881.a71173aa3fd1be78b8d4.png",
@@ -14,16 +15,17 @@
     "static/media/free-icon-contact-us-8644324.png": "./static/media/free-icon-contact-us-8644324.be02b5f2ab608c9aac40.png",
     "static/media/telegram_logo_icon_168692.png": "./static/media/telegram_logo_icon_168692.f791610301532b777227.png",
     "static/media/1486564399-close_81512.png": "./static/media/1486564399-close_81512.0fefe06392c7446322ae.png",
+    "static/media/iconfinder-social-media-applications-32vk-4102593_113806.png": "./static/media/iconfinder-social-media-applications-32vk-4102593_113806.8b65ba90e5224ce89a39.png",
     "static/media/instagram-167-svgrepo-com.svg": "./static/media/instagram-167-svgrepo-com.eaa957f02fe3257f3533c2d96533dc6b.svg",
     "static/media/youtube-168-svgrepo-com.svg": "./static/media/youtube-168-svgrepo-com.361fd800e39dcb080516df2e39c7a994.svg",
     "static/media/vk-svgrepo-com.svg": "./static/media/vk-svgrepo-com.50c14dc62d9f86c9d57ad21af03dd6e5.svg",
     "index.html": "./index.html",
     "main.bffde56b.css.map": "./static/css/main.bffde56b.css.map",
-    "main.73f2a6f4.js.map": "./static/js/main.73f2a6f4.js.map",
+    "main.35025835.js.map": "./static/js/main.35025835.js.map",
     "787.1d05cb81.chunk.js.map": "./static/js/787.1d05cb81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bffde56b.css",
-    "static/js/main.73f2a6f4.js"
+    "static/js/main.35025835.js"
   ]
 }
