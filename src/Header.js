@@ -43,21 +43,21 @@ function Header() {
                     <div className="header__navtab">
                         <a href="https://www.youtube.com/@Fakeband_official" target="_blank" rel="noopener noreferrer">
                             {isMobile ? (
-                                <img className="header__icon" src={youtubeMobile} alt="YouTube" />
+                                <img className="header__icon-you" src={youtubeMobile} alt="YouTube" />
                             ) : (
                                 <img className="header__icon" src={youtubeIcon} alt="YouTube" />
                             )}
                         </a>
                         <a href="https://vk.com/fake__band" target="_blank" rel="noopener noreferrer">
                             {isMobile ? (
-                                <img className="header__icon" src={vkMobile} alt="VKontakte" />
+                                <img className="header__icon-vk" src={vkMobile} alt="VKontakte" />
                             ) : (
                                 <img className="header__icon" src={vkIcon} alt="VKontakte" />
                             )}
                         </a>
                         <a href="https://instagram.com/fakeband_official?igshid=MWZjMTM2ODFkZg==" target="_blank" rel="noopener noreferrer">
                             {isMobile ? (
-                                <img className="header__icon " src={instMobile} alt="Instagram" />
+                                <img className="header__icon-inst " src={instMobile} alt="Instagram" />
                             ) : (
                                 <img className="header__icon " src={instagramIcon} alt="Instagram" />
                             )}
@@ -100,21 +100,13 @@ function Header() {
 
                         {
                             isMobile && (
-                                isMenuOpen ? (
                                     <img
                                         onClick={toggleMenu}
-                                        className="header__contact-close"
-                                        src={close}
+                                        className="header__contact"
+                                        src={isMenuOpen ? close : contact}
                                         alt="закрыть контакты"
                                     />
-                                ) : (
-                                    <img
-                                        onClick={toggleMenu}
-                                        className="header__contact-open"
-                                        src={contact}
-                                        alt="контакты fake band"
-                                    />
-                                )
+                               
                             )
                         }
 

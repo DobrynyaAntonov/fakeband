@@ -129,17 +129,6 @@
     cursor: pointer;
 }
 
-.header__contact-open {
-    width: 50px;
-    height: 50px;
-}
-
-.header__contact-close {
-    width: 50px;
-    height: 50px;
-    margin-top: 20px;
-}
-
 .what {
     background-color: white;
     border-radius: 50%;
@@ -175,20 +164,44 @@
 
 @media (max-width: 768px) {
 
+    .header__icon-inst {
+        width: 57px;
+        height: auto;
+    }
+
+    .header__icon-vk {
+        width: 47px;
+        height: auto;
+        margin-right: 20px;
+        padding-bottom: 4px;
+    }
+
+    .header__icon-you {
+        width: 56px;
+        height: auto;
+        margin-right: 20px;
+    }
+
     .header__open {
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.6s ease-in-out; /* Плавная анимация изменения max-height */
-    }
-    
-    .header__open.visible {
-        max-height: 500px; /* Высота меню, когда оно видимо */
-        transition: max-height 0.6s ease-in-out; /* Плавное изменение max-height при открытии */
+        transition: max-height 0.6s ease-in-out;
+        /* Плавная анимация изменения max-height */
     }
 
-    .header__contact-open{
-        margin-top: 20px;
+    .header__open.visible {
+        max-height: 500px;
+        /* Высота меню, когда оно видимо */
+        transition: max-height 0.6s ease-in-out;
+        /* Плавное изменение max-height при открытии */
     }
+
+    .header__contact {
+        margin-top: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
     .header__promo {
         position: fixed;
         left: 30px;
@@ -248,6 +261,21 @@
 }
 
 @media (max-width: 580px) {
+
+    .header__icon-inst {
+        width: 47px;
+      
+    }
+
+    .header__icon-vk {
+        width: 37px;
+     
+    }
+
+    .header__icon-you {
+        width: 46px;
+   
+    }
     .header__icon {
         width: 40px;
         height: 40px;
@@ -270,7 +298,7 @@
     }
 
     .header__navtab {
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
     .header__container {
