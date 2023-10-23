@@ -9,9 +9,9 @@
     object-position: center;
 }
 
-.main__image2{
+.main__image2 {
     width: 100%;
-    /* position: absolute; */
+    position: absolute;
     z-index: -1;
     top: 0;
     left: 0;
@@ -19,13 +19,90 @@
     object-fit: cover;
     object-position: center;
     margin-top: -5px;
+
 }
+
+.main__image-container {
+    position: relative;
+}
+
+.main__text {
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    color: whitesmoke;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 0;
+    width: 250px;
+    font-family: 'feduk';
+    font-size: 27px;
+    border-radius: 23px;
+    text-align: center;
+}
+
+.main__text2 {
+    position: absolute;
+    top: 120px;
+    right: 120px;
+    color: whitesmoke;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 0;
+    width: 250px;
+    font-family: 'feduk';
+    font-size: 27px;
+    border-radius: 23px;
+    text-align: center;
+}
+
+.main__text3 {
+    position: absolute;
+    top: 120px;
+    right: 120px;
+    color: whitesmoke;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 0;
+    width: 250px;
+    font-family: 'feduk';
+    font-size: 27px;
+    border-radius: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.main{
+    position: relative;
+}
+.main__iframe {
+    position: absolute;
+    bottom: -1265px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 510px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media (max-width: 768px) {
     .main__image {
         height: 900px;
         object-position: bottom;
     }
+
     .main__image2 {
         height: 900px;
         object-position: bottom;
@@ -37,15 +114,18 @@
     .main__image {
         height: 850px;
     }
+
     .main__image2 {
         height: 700px;
     }
 
 }
+
 @media (max-width: 426px) {
     .main__image {
         height: 700px;
     }
+
     .main__image2 {
         height: 700px;
         object-position: -58px;
@@ -63,13 +143,15 @@
     .main__image {
         height: 700px;
     }
+
     .main__image2 {
         height: 590px;
         object-position: -3px;
     }
 }
+
 @media (max-width: 370px) {
- 
+
     .main__image2 {
         height: 590px;
         object-position: -24px;
@@ -81,6 +163,7 @@
     .main__image {
         height: 590px;
     }
+
     .main__image2 {
         height: 590px;
         object-position: -43px;
