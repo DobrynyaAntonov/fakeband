@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.04ce2c6a.css",
-    "main.js": "./static/js/main.d306b212.js",
+    "main.css": "./static/css/main.2e316f15.css",
+    "main.js": "./static/js/main.250d5f78.js",
     "static/js/787.1d05cb81.chunk.js": "./static/js/787.1d05cb81.chunk.js",
     "static/media/IMG_2477-min.png": "./static/media/IMG_2477-min.3826768d53f3aa803802.png",
     "static/media/блюр-min.png": "./static/media/блюр-min.2e3f9185c8b1503369e1.png",
-    "static/media/imgonline-com-ua-Blur-oA2GPjnu1b-min.jpg": "./static/media/imgonline-com-ua-Blur-oA2GPjnu1b-min.ed9bc0df36f69c290d2b.jpg",
     "static/media/Body-Grotesque-Large-Bold-trial.ttf": "./static/media/Body-Grotesque-Large-Bold-trial.453e0d88a4a657604c29.ttf",
     "static/media/3721672-instagram_108066.png": "./static/media/3721672-instagram_108066.f5ef3733532877aa232f.png",
     "static/media/Ekran-font.ttf": "./static/media/Ekran-font.85f9c187906c6bd4c0f6.ttf",
@@ -20,12 +19,12 @@
     "static/media/youtube-168-svgrepo-com.svg": "./static/media/youtube-168-svgrepo-com.361fd800e39dcb080516df2e39c7a994.svg",
     "static/media/vk-svgrepo-com.svg": "./static/media/vk-svgrepo-com.50c14dc62d9f86c9d57ad21af03dd6e5.svg",
     "index.html": "./index.html",
-    "main.04ce2c6a.css.map": "./static/css/main.04ce2c6a.css.map",
-    "main.d306b212.js.map": "./static/js/main.d306b212.js.map",
+    "main.2e316f15.css.map": "./static/css/main.2e316f15.css.map",
+    "main.250d5f78.js.map": "./static/js/main.250d5f78.js.map",
     "787.1d05cb81.chunk.js.map": "./static/js/787.1d05cb81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04ce2c6a.css",
-    "static/js/main.d306b212.js"
+    "static/css/main.2e316f15.css",
+    "static/js/main.250d5f78.js"
   ]
 }
