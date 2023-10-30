@@ -71,8 +71,8 @@
 .main__socials {
     padding: 0;
     position: fixed;
-    bottom: 20px;
-    left: 20px;
+    bottom: 30px;
+    left: 30px;
     margin: 0;
 }
 
@@ -96,8 +96,8 @@
 .main__contact {
     padding: 0;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 30px;
+    right: 30px;
     margin: 0;
     text-align: right;
 }
@@ -155,5 +155,9 @@
 
     .main__contact-lin-text {
         font-size: 12px;
+    }
+
+    .main__promo-frame {
+        left: -77px;
     }
 }
