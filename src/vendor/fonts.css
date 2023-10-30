@@ -4,16 +4,6 @@
 } */
 
 @font-face {
-    font-family: mine;
-    src: url("./DaMiOne-Regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: Erkan;
-    src: url("./Ekran-font.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: feduk;
-    src: url("./Body-Grotesque-Large-Bold-trial.ttf") format("truetype");
+    font-family: wremena;
+    src: url("./WremenaRegular.woff") format("woff");
 }

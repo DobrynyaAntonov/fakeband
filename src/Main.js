@@ -1,26 +1,51 @@
-import React from 'react'
-import ReactPlayer from 'react-player/youtube'
-import Header from './Header';
-import image from './image/IMG_2477-min.png';
-import image2 from './image/imgonline-com-ua-Blur-oA2GPjnu1b-min.jpg';
+import React, { useState, useEffect } from 'react';
+import exampleImage2 from './image/Property 1=Frame 2.png';
+import exampleImage3 from './image/Property 1=Frame 3.png';
+import exampleImage4 from './image/Property 1=Frame 4.png';
+import exampleImage5 from './image/Property 1=Frame 5.png';
+import exampleImage6 from './image/Property 1=Frame 6.png';
+import exampleImage7 from './image/Property 1=Frame 7.png';
+import exampleImage8 from './image/Property 1=Frame 8.png';
+import exampleImage9 from './image/Property 1=Frame 9.png';
+
 import './main.css';
 
 
 function Main() {
+
+    const images = [exampleImage2, exampleImage3, exampleImage4, exampleImage5, exampleImage6, exampleImage7, exampleImage8, exampleImage9];
+
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setTimeout(() => {
+            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+        }, 500);
+
+        return () => clearTimeout(interval);
+    }, [currentImageIndex, images.length]);
+
     return (
-        <div className="main">
-            <Header />
-            <img src={image} className="main__image" alt="фото музыкальной группы Fake band" />
-            <div className='main__image-container'>
-                <img src={image2} className="main__image2" alt="кавер группа fake band" />
-                <p className='main__text'>МОЛОДОСТЬ!</p>
-                <p className='main__text2'>СТИЛЬ!</p>
-                <p className='main__text3'>ДРАЙВ!</p>
-                <div className='main__iframe'>
-                    < ReactPlayer url='https://www.youtube.com/watch?v=76kOHCdbBrU' controls={true} width="100%" height="100%" />
-                </div>
+        <section className="main">
+            <h1 className='main__text'>FAKE BAND</h1>
+            <p className='main__par'>OFFICIAL SITE</p>
+            <div className='main__promo-container'>
+                <a href='https://www.youtube.com/watch?v=76kOHCdbBrU' className='main__promo' target="_blank" rel="noreferrer">PROMO</a>
+                <img className='main__promo-frame' src={images[currentImageIndex]} alt='' />
             </div>
-        </div>
+
+            <ul className='main__socials'>
+                <li className='main__socials-link'> <a className='main__socials-lin-text' href='https://vk.com/fake__band' target="_blank" rel="noreferrer">VK</a></li>
+                <li className='main__socials-link'><a className='main__socials-lin-text' href='https://youtube.com/@Fakeband_official?si=1Y9E_Gd9u2WvMqBd' target="_blank" rel="noreferrer">YOUTUBE</a></li>
+                <li className='main__socials-link'><a className='main__socials-lin-text' href='https://www.instagram.com/fakeband_official' target="_blank" rel="noreferrer">INSTAGRAM</a></li>
+            </ul>
+
+            <ul className='main__contact'>
+                <li className='main__socials-link'> <a className='main__contact-tel'  href='tel:+79779329001' target="_blank" rel="noreferrer">+7 977 932-90-01</a></li>
+                <li className='main__socials-link'><a className='main__contact-lin-text' href='https://wa.me/79834065617' target="_blank" rel="noreferrer">WHATSAPP</a></li>
+                <li className='main__socials-link'><a className='main__contact-lin-text' href='https://t.me/Timurchikss' target="_blank" rel="noreferrer">TELEGRAM</a></li>
+            </ul>
+        </section>
     );
 }
 
