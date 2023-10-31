@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.b65f9fe0.css",
+    "main.css": "./static/css/main.c71bb9b3.css",
     "main.js": "./static/js/main.9b8cd037.js",
     "static/js/787.1d05cb81.chunk.js": "./static/js/787.1d05cb81.chunk.js",
     "static/media/IMG_8071 (1).jpg": "./static/media/IMG_8071 (1).f84287c1018751774730.jpg",
     "static/media/WremenaRegular.woff": "./static/media/WremenaRegular.937a33831da47a7b2181.woff",
     "index.html": "./index.html",
-    "main.b65f9fe0.css.map": "./static/css/main.b65f9fe0.css.map",
+    "main.c71bb9b3.css.map": "./static/css/main.c71bb9b3.css.map",
     "main.9b8cd037.js.map": "./static/js/main.9b8cd037.js.map",
     "787.1d05cb81.chunk.js.map": "./static/js/787.1d05cb81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b65f9fe0.css",
+    "static/css/main.c71bb9b3.css",
     "static/js/main.9b8cd037.js"
   ]
 }
