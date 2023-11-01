@@ -1,7 +1,7 @@
 .main {
     width: 100%;
     height: 100vh;
-    background-image: url(./image/IMG_2477-min.png);
+    background-image: url(./image/IMG_8071\ \(1\).jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
     font-family: wremena;
     color: #F00;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -24,7 +24,7 @@
     color: #000;
     font-family: wremena;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -36,7 +36,7 @@
     color: #FFF;
     text-align: center;
     font-family: wremena;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -45,6 +45,29 @@
     margin: 0;
     opacity: 0.999;
     z-index: 10;
+}
+
+.main__promo {
+    position: relative;
+}
+
+.main__promo-video {
+    position: absolute;
+    top: -107px;
+    left: -180px;
+    z-index: -2;
+    width: 440px;
+    height: 248px;
+    transition: opacity 0.5s ease;
+}
+
+.main__promo-video {
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+.main__promo-video.show {
+    opacity: 1;
 }
 
 .main__promo:hover {
@@ -67,6 +90,9 @@
     right: auto;
     z-index: -1;
 }
+img.main__promo-frame{
+    pointer-events: none;
+}
 
 .main__socials {
     padding: 0;
@@ -84,7 +110,7 @@
 .main__socials-lin-text {
     color: #FFF;
     font-family: Wremena;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -107,7 +133,7 @@
     text-align: right;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Wremena;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -120,7 +146,7 @@
     text-align: right;
     font-variant-numeric: lining-nums tabular-nums;
     font-family: Wremena;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -133,31 +159,46 @@
 }
 
 @media (max-width: 430px) {
+    .main__par{
+        margin-left: 15px;
+    }
+    .main__text{
+        margin-left: 15px;
+    }
+    .main__promo-video {
+        width: 0;
+        height: 0;
+    }
+
     .main__text {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .main__par {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .main__promo {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .main__socials-lin-text {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .main__contact-tel {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .main__contact-lin-text {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .main__promo-frame {
         left: -77px;
+    }
+
+    .main__promo-video.show {
+        opacity: 0;
     }
 }

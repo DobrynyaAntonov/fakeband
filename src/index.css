@@ -15,4 +15,5 @@
     text-rendering: optimizeLegibility;
     padding: 0;
     height: 100vh;
+    overflow: hidden;
 }
