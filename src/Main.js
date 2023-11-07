@@ -51,7 +51,7 @@ function Main() {
                     onMouseOut={handleMouseOut}>PROMO
 
                 </a>
-                <img className='main__promo-frame' src={images[currentImageIndex]} alt='компоненты для визуализации' />
+                <img className='main__promo-frame' src={images[currentImageIndex]} alt='cover brass band Fake Band' />
                 <div className={`main__promo-video ${showVideo ? 'show' : ''}`}>
                     <ReactPlayer
 
